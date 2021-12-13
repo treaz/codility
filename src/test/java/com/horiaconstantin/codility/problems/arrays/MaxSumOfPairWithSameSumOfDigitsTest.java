@@ -12,5 +12,6 @@ class MaxSumOfPairWithSameSumOfDigitsTest {
 		assertEquals(93, maxSumOfPairsWithDigitsSum(new int[]{51, 71, 17, 42}));
 		assertEquals(102, maxSumOfPairsWithDigitsSum(new int[]{42, 33, 60}));
 		assertEquals(-1, maxSumOfPairsWithDigitsSum(new int[]{51, 32, 43}));
+		assertEquals(173, maxSumOfPairsWithDigitsSum(new int[]{73, 82, 37, 91}));
 	}
 }
